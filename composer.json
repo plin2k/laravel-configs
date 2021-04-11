@@ -1,0 +1,43 @@
+{
+    "name": "plin2k/laravel-configs",
+    "description": "Laravel Configs",
+    "license": "MIT",
+    "type": "library",
+    "homepage": "http://laravel-configs.plin2k.org/",
+    "authors": [
+        {
+            "name": "plin2k",
+            "email": "admin@plin2k.org"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "config",
+        "configs",
+        "laravel-config",
+        "laravel-configs",
+        "laravel config",
+        "laravel configs"
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "LaravelConfigs\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": ">=4.0"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelConfigs\\Providers\\LaravelConfigsServiceProvider"
+            ]
+        },
+        "aliases": {
+          "SimpleConfig": "LaravelConfigs\\Facades\\SimpleConfig"
+        }
+    },
+}
