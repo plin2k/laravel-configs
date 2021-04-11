@@ -10,3 +10,8 @@ If you want you can use the facade. Add the reference in config/app.php to your 
 ```php
 'SimpleConfig' => LaravelConfigs\Facades\SimpleConfig::class,
 ```
+
+If you want you can get value in blade template.
+```php
+@simpleConfig('name','default')
+```
