@@ -39,5 +39,5 @@
         "aliases": {
           "SimpleConfig": "LaravelConfigs\\Facades\\SimpleConfig"
         }
-    },
+    }
 }
